@@ -6,6 +6,11 @@
     "url": "https://github.com/greylurk/hassio-addon-experiments",
     "startup": "application",
     "boot": "auto",
+    "arch": [
+    "amd64",
+    "armhf",
+    "i386"
+  ],
     "options": {
         "ovpn_file": ""
     },

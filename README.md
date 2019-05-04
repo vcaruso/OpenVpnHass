@@ -1,21 +1,8 @@
-# OpenVPN Client for Portmap.io
+Hass.io add-on experiments
+--------------------------
 
-This addon is an OpenVPN client for Portmap.io. Due to my networking setup
-at home, I'm unable to use port mapping on my local router to expose my 
-hass.io instance to the public internet, so I'm using the service at 
-http://portmap.io to make my service available over the internet. This should
-work with both the paid and free versions of portmap.io, though the free 
-version only allows you to expose one port.
+These are some random experiments for Hass.io add-ons.
 
-## Configuration
+## How to add repository to Hass.io
 
-This takes only one configuration option: the OpenVPN config file for the 
-connection that you want to use. For example, if you have an OpenVPN config
-file named "client.ovpn", simply copy that file to the /config directory on
-your hass.io install, then configure your OpenVPN client as follows: 
-
-```json
-{
-  "ovpn_file": "client.ovpn"
-}
-```
+[Follow repository installation instructions](https://home-assistant.io/hassio/installing_third_party_addons/) with the url `https://github.com/greylurk/hassio-custom-addons`.

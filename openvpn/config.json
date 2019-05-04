@@ -5,6 +5,11 @@
     "description": "OpenVPN Bridging",
     "url": "https://github.com/greylurk/hassio-addon-experiments",
     "startup": "application",
+    "arch": [
+    "amd64",
+    "armhf",
+    "i386"
+    ],
     "boot": "auto",
     "options": {
         "ovpn_file": ""
